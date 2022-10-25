@@ -36,5 +36,5 @@ This is an Artificial Neural Network model that trains on the data which was gen
 Live hand gestures are recognised through the webcam. The webcam captures the live coordinates of the hand and feeds it to the ANN model which recognises the handsigns. This can be deployed into a web or mobile application and data can be extracted from the mobile camera.
 
 ## References:
-[1] Sign language prediction - https://www.youtube.com/watch?v=pDXdlXlaCco
+[1] Sign language prediction - https://www.youtube.com/watch?v=pDXdlXlaCco  
 [2] Mediapipe library - https://github.com/kinivi/hand-gesture-recognition-mediapipe
