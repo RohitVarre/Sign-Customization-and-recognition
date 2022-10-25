@@ -1,5 +1,5 @@
 # Gesture-Customization-and-recognition
-The goal of this project is to detect static hand signs. A machine learning model is designd to detect live hand signs using he webcamera. These signs are usually static gestures or a part of sign language. There are similar words done previsouly(https://www.youtube.com/watch?v=pDXdlXlaCco), but they relied on image processing and CNNs to predict the gesture. The major disadvantages with this approach are:
+The goal of this project is to detect static hand signs. A machine learning model is designd to detect live hand signs using the webcamera. These signs are usually static gestures or a part of sign language. There are similar words done previsouly(https://www.youtube.com/watch?v=pDXdlXlaCco), but they relied on image processing and CNNs to predict the gesture. The major disadvantages with this approach are:
 1. Image sensitivity to background
 2. High computational power
 3. Possible lag between the image procuring and detection when deployed, due to higher computational time.
