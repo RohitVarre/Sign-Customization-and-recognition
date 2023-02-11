@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>HackNotts23</title>
+        <style>
+            .center {
+            
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                    }
+       </style>
+    </head>    
+    <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8  offset-lg-2">
+                <h3 class="mt-5">Live Streaming</h3>
+                <img src="{{ url_for('video_feed') }}" class = "center">                
+            </div>
+            <br>
+            <div>
+                <textarea id="msg1" class = "center" name="textarea" rows="4" cols="50">
+                    Hello !!
+                </textarea>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <script>
+        function sleep(ms) {
+          return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        async function delayedGreeting() {
+            while(true){
+                alert("Inside while");
+                fetch("/sign")
+                .then(function (response) {return response.json();})
+                .then(function (text) {
+                    alert(text.greeting);                    
+                    document.getElementById('msg1').innerHTML = text.greeting;
+                })
+                
+
+                await sleep(3000);
+            }
+          
+        }
+
+        delayedGreeting();
+
+    </script>
+    </body>
+
+</html>
