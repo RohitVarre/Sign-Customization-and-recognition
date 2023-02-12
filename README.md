@@ -1,6 +1,4 @@
-## Scientific Programming in Python – submission 1
-
-### Project title: Gesture-Customization-and-recognition
+### Project title: SYN
 
 ### Student name: Varre Rohit
   
